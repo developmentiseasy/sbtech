@@ -1,0 +1,39 @@
+.NavigationDropdownItem {
+    position: relative;
+    display: inline-block;
+}
+
+.NavigationDropdownItem .dropdown-content {
+    display: block;
+    position: absolute;
+    z-index: 0;
+    top: 100%;
+}
+
+.NavigationDropdownItem .hidden {
+    visibility: hidden;
+}
+
+.NavigationDropdownItem .nav-item {
+    float: left;
+    margin-right: 15px;
+    display: block;
+    text-align: center;
+    width: 100px;
+    background-color: #666666;
+    padding: 5px 0;
+    cursor: pointer;
+}
+
+.NavigationDropdownItem .nav-item:hover {
+    background-color: #333333;
+}
+
+.NavigationDropdownItem .nav-item .title{
+    font-weight: 700;
+    color: #FFFFFF;
+}
+
+.NavigationDropdownItem .nav-item.active {
+    background-color: #000000;
+}

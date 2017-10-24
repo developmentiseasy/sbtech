@@ -1,0 +1,26 @@
+.NavigationItem .nav-item {
+    float: left;
+    margin-right: 15px;
+    display: block;
+    text-align: center;
+    width: 100px;
+    background-color: #666666;
+    padding: 5px 0;
+}
+
+.NavigationItem .nav-item:hover {
+    background-color: #333333;
+}
+
+.NavigationItem .nav-item a {
+    text-decoration: none;
+}
+
+.NavigationItem .nav-item .title{
+    font-weight: 700;
+    color: #FFFFFF;
+}
+
+.NavigationItem .nav-item.active {
+    background-color: #000000;
+}

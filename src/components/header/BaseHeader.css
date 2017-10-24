@@ -1,0 +1,16 @@
+.BaseHeader {
+    border: 0 solid #000;
+    background: #CBCBCB;
+    position: relative;
+    width: 100%;
+    max-width: 1280px;
+    height: 100px;
+    margin: 0 auto;
+}
+
+.BaseHeader .navigation-items {
+    width: 100%;
+    margin-left: 10px;
+    position: absolute;
+    bottom: 0;
+}
