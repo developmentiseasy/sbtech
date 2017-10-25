@@ -33,8 +33,14 @@ class NavigationDropdownItem extends Component {
 
     return (
       <div className="NavigationDropdownItem" onMouseLeave={this.onMouseLeave}>
-        <div className={`nav-item ${this.state.isVisible ? 'active' : ''}`} onClick={this.onClick}>
-          <span className="title">{(value).toUpperCase()}</span>
+        <div
+          className={`nav-item ${this.state.isVisible ? 'active' : ''}`}
+          onClick={this.onClick}
+        >
+          <span className="title">
+            {value.toUpperCase()}
+            <div className={`${!this.state.isVisible ? 'triangle-close' : 'triangle-open'}`} />
+          </span>
         </div>
         <div className={`dropdown-content ${this.state.isVisible ? '' : 'hidden'}`}>
           {children}

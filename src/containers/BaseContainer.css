@@ -27,7 +27,7 @@ body {
     float: left;
     width: 70%;
     margin-right: 0;
-    background: #85c9cf;
+    background: #CBCBCB;
 }
 
 .BaseContainer #content #colRight {
@@ -35,8 +35,7 @@ body {
     right: 0;
     float: left;
     width: 30%;
-    border: 0 solid #1FA2E1;
-    background: #7a9e0e;
+    background: #A2A2A2;
 }
 
 .BaseContainer #middle:after {

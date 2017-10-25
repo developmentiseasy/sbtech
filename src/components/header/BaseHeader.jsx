@@ -35,22 +35,22 @@ class BaseHeader extends Component {
           <NavigationItem
             to={'/home'}
             active={this.isActiveSubItem('/home')}
-            value={'Home'}
+            value={'Home'.toUpperCase()}
             onClick={changeLocation}
           />
           <NavigationItem
             to={'/sports'}
             active={this.isActiveSubItem('/sports')}
-            value={'Sports'}
+            value={'Sports'.toUpperCase()}
             onClick={changeLocation}
           />
           <NavigationItem
             to={'/casino'}
             active={this.isActiveSubItem('/casino')}
-            value={'Casino'}
+            value={'Casino'.toUpperCase()}
             onClick={changeLocation}
           />
-          <NavigationDropdownItem value={"Games"}>
+          <NavigationDropdownItem value={"Games".toUpperCase()}>
             <NavigationItem
               to={'/games/mega-moolah'}
               active={this.isActiveSubItem('/games/mega-moolah')}

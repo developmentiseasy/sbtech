@@ -4,10 +4,12 @@
 }
 
 .NavigationDropdownItem .dropdown-content {
+    padding: 0 5px;
     display: block;
     position: absolute;
     z-index: 0;
     top: 100%;
+    background-color: #000000;
 }
 
 .NavigationDropdownItem .hidden {
@@ -16,7 +18,7 @@
 
 .NavigationDropdownItem .nav-item {
     float: left;
-    margin-right: 15px;
+    margin-right: 0;
     display: block;
     text-align: center;
     width: 100px;
@@ -36,4 +38,53 @@
 
 .NavigationDropdownItem .nav-item.active {
     background-color: #000000;
+}
+
+.NavigationDropdownItem .triangle-open {
+    display: inline-block;
+    margin: 0 0 3px 3px;
+    width: 0;
+    height: 0;
+    border-left: 4px solid transparent;
+    border-right: 4px solid transparent;
+    border-top: 4px solid #FFFFFF;
+
+}
+
+.NavigationDropdownItem .triangle-close {
+    display: inline-block;
+    margin: 0 0 2px 7px;
+    width: 0;
+    height: 0;
+    border-top: 4px solid transparent;
+    border-bottom: 4px solid transparent;
+    border-left: 4px solid #FFFFFF;
+}
+
+.NavigationDropdownItem .NavigationItem .nav-item {
+    float: left;
+    display: block;
+    text-align: left;
+    width: 150px;
+    background-color: #000000;
+    padding: 5px 5px;
+    border-bottom: 1px solid #545454;
+}
+
+.NavigationDropdownItem .NavigationItem .nav-item:hover {
+    background-color: #333333;
+}
+
+.NavigationDropdownItem .NavigationItem .nav-item a {
+    text-decoration: none;
+}
+
+.NavigationDropdownItem .NavigationItem .nav-item .title{
+    font-size: small;
+    font-weight: 400;
+    color: #FFFFFF;
+}
+
+.NavigationDropdownItem .NavigationItem .nav-item.active {
+    background-color: #333333;
 }

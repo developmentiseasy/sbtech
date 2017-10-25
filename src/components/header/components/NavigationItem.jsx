@@ -18,7 +18,7 @@ class NavigationItem extends Component {
         <li className={'nav-item' + (this.props.active ? ' active' : '')} onClick={this.onClick}>
           <Link to={this.props.to}>
           <span className="title">
-            {(this.props.value).toUpperCase()}
+            {this.props.value}
           </span>
           </Link>
         </li>
